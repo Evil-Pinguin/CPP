@@ -32,3 +32,13 @@ npm run dev
 npm run lint
 npm run build
 ```
+
+## Развёртывание на Vercel
+
+Репозиторий уже содержит `vercel.json`. В настройках нового проекта достаточно выбрать этот репозиторий — Vercel автоматически выполнит `npm install`, `npm run build` и опубликует папку `dist`.
+
+Для ручного развёртывания через CLI:
+
+```bash
+npx vercel
+```
